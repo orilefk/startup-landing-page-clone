@@ -47,3 +47,32 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
