@@ -55,20 +55,21 @@ div {
 	width: 60rem;
 	height: 4.375rem;
 	margin: 0 auto;
-	padding-right: 0.938rem;
-	padding-left: 0.938rem;
+	padding: 0 1rem;
+	min-width: 37.5rem;
+	box-sizing: border-box;
 }
 .top-navigation > .content > .logo {
 	height: 4.375rem;
 }
-.top-navigation > .links {
+.top-navigation > .content > .links {
 	float: right;
 	color: #838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
 }
 
-.top-navigation > .links li{
+.top-navigation > .content > .links li{
 	display: inline-block;
 	margin-left: 1.563rem;
 }
