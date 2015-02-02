@@ -56,22 +56,25 @@ body {
     background-color: LightGray;
 }
 div {
-    border: 1px solid Chocolate;
+    border: 1px solid chocolate;
 }
 
 
 .content {
 	padding: 0 1rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
 }
+
+/*Top navigation section*/
+
 .top-navigation {
 	background-color: #fff;
 }
 .top-navigation > .content {
 	width: 60rem;
 	height: 4.375rem;
-	margin: 0 auto;
-	padding: 0 1rem;
-	min-width: 37.5rem;
+
 }
 .top-navigation > .content > .logo {
 	height: 4.375rem;
@@ -97,6 +100,36 @@ div {
 .top-navigation .links li:hover {
 	color: #333333;
 	cursor: pointer;
+}
+
+/*Intro Section*/
+
+.introduction {
+	background-image: url(../images/background-image.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+
+.introduction h1, .introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+.introduction .buttons {
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
 }
 
 
