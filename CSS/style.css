@@ -29,6 +29,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -175,6 +176,18 @@ button:hover {
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
 }
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+
 
 
 
